@@ -1,54 +1,100 @@
-<header>
-
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
-
-## Step 1: Enable GitHub Pages
-
-_Welcome to GitHub Pages and Jekyll :tada:!_
-
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
-
-### :keyboard: Activity: Enable GitHub Pages
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
+---
+layout: default
+title: Portfolio & Introduction
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+# Portfolio & Introduction
+*Explore my projects and professional journey in MIS and cybersecurity.*
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+![Header Image](/assets/images/header.jpg)
 
-</footer>
+## Table of Contents
+- [Who Am I](#who-am-i)
+- [Education](#education)
+- [Professional Experience](#professional-experience)
+- [Machine Learning & AI Projects](#machine-learning--ai-projects)
+- [Portfolio Highlights](#portfolio-highlights)
+- [Skills & Tools](#skills--tools)
+- [Leadership & Contributions](#leadership--contributions)
+- [Contact Me](#contact-me)
+
+## Who Am I
+I am an aspiring Management Information Systems (MIS) professional pursuing a Bachelor’s in Business Administration at the University of Massachusetts, Lowell. With a robust foundation in project management, data analytics, and over a decade of leadership experience in HVAC supervision, I have transitioned my career toward leveraging data, AI, and machine learning to solve real-world business problems. This portfolio showcases my academic projects, professional achievements, and open-source contributions, reflecting my passion for technology-driven innovation.
+
+[Dive into my work on Hugging Face](https://huggingface.co/GaiaFramework) and GitHub to explore the code, methodologies, and impact of my projects.
+
+I am a dedicated MIS student with a unique blend of practical industry experience and technical expertise. My career began in HVAC supervision, where I spent over 10 years leading teams, optimizing workflows, and implementing data-driven solutions. Today, I am channeling that experience into the world of data analytics, machine learning, and business intelligence, with a focus on predictive modeling and process automation. My goal is to bridge the gap between business needs and cutting-edge technology, delivering actionable insights and efficient solutions.
+
+**Key Strengths:**
+- **Leadership:** Over a decade of team management, improving productivity and morale.
+- **Technical Proficiency:** Skilled in Python, SQL, machine learning frameworks, and data visualization tools.
+- **Analytical Mindset:** Experienced in translating complex data into strategic business decisions.
+- **Adaptability:** Thrives in dynamic environments, continuously learning and applying new technologies.
+
+## Education
+### University of Massachusetts, Lowell
+**Bachelor’s in Business Administration - Management Information Systems**  
+*Expected Graduation: 2026*  
+GPA: 3.77  
+- Notable Project: Led a team to develop a predictive analytics model for inventory management, reducing stockouts by 15%.  
+- Activities: Member of the Open-Source Club, contributing to collaborative coding initiatives.  
+- Relevant Coursework: Data Structures, Algorithms, Database Management, Business Analytics, Systems Design.
+
+### Middlesex Community College, Bedford, MA
+**Associate’s in Science - Business Administration**  
+*2021 – 2023*  
+- Leadership: Founded a business entrepreneurship club, designing an e-commerce model that analyzed sales trends using data analytics.  
+- Tutoring: Mentored peers in C++ and advanced mathematics, sharpening my technical communication skills.
+
+## Professional Experience
+### Curt Coulam Services | North Billerica, MA
+**Foreman & HVAC Supervisor**  
+*2011 – 2025*  
+- Managed HVAC installation and maintenance projects, ensuring 100% compliance with safety and quality standards.  
+- Supervised a team of 10+ technicians, increasing operational efficiency by 30% through training and process improvements.  
+- Developed a scheduling system that boosted on-time project completion by 33%.  
+- Leveraged business intelligence tools to monitor performance metrics, enhancing efficiency by 20%.
+
+### Smooth Cyber Solutions | Remote
+**Freelance Data Analyst & Systems Developer**  
+*2017 – Present*  
+- Designed data-driven e-commerce applications using React and Python, improving operational efficiency by 57%.  
+- Conducted market analysis with SQL and Tableau, enhancing sales forecasting accuracy by 15%.  
+- Automated SQL queries to streamline data processing, accelerating decision-making for clients.
+
+## Machine Learning & AI Projects
+My projects reflect my growing expertise in machine learning, AI, and data analytics, applied to practical business challenges. Below are highlights of my work, with links to repositories for further exploration.
+
+1. **Predictive Analytics for Inventory Management**  
+   - **Description:** Spearheaded a team project to build a machine learning model predicting inventory demand, minimizing stockouts.  
+   - **Technologies:** Python, SQL, Tableau  
+   - **Outcome:** Reduced stockouts by 15%, optimizing supply chain efficiency.  
+   - **Repository:** [GitHub - Inventory Management Model](https://github.com/yourusername/inventory-management)
+
+2. **Bitcoin Price Forecasting Model**  
+   - **Description:** Created a deep learning model using Altair AI Studio to predict Bitcoin prices with high accuracy.  
+   - **Technologies:** Python, Altair AI Studio, Tableau  
+   - **Outcome:** Achieved a 1.08% error rate, supporting algorithmic trading strategies.  
+   - **Repository:** [GitHub - Bitcoin Forecasting](https://github.com/yourusername/bitcoin-forecasting)
+
+3. **HVAC Data Optimization**  
+   - **Description:** Engineered an SQL-based system to improve job scheduling and inventory tracking for HVAC operations.  
+   - **Technologies:** SQL, Power BI  
+   - **Outcome:** Decreased scheduling conflicts by 25% and improved inventory accuracy by 30%.  
+   - **Repository:** [GitHub - HVAC Optimization](https://github.com/yourusername/hvac-optimization)
+
+4. **GaiaFramework: AI-Powered Business Intelligence**  
+   - **Description:** Contributed to GaiaFramework, an open-source toolkit for developing ML models tailored to business applications.  
+   - **Technologies:** Python, Hugging Face, React  
+   - **Outcome:** Facilitated rapid deployment of AI solutions for e-commerce and market analysis.  
+   - **Repository:** [Hugging Face - GaiaFramework](https://huggingface.co/GaiaFramework)
+
+## Portfolio Highlights
+### Predictive Analytics for Inventory Management
+This project addressed inventory inefficiencies by employing a random forest regression model to forecast demand. Using historical sales data and external variables like seasonality, we built a predictive system integrated into a Tableau dashboard for real-time insights.  
+**Impact:** Cut stockouts by 15%, improving customer satisfaction and reducing costs.  
+**Code Snippet:**  
+```python
+from sklearn.ensemble import RandomForestRegressor
+model = RandomForestRegressor(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
